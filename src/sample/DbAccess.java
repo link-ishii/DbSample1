@@ -12,10 +12,10 @@ public class DbAccess {
     private String driver, connectURL, id, pass;
 
     public DbAccess() {
-        connectURL = "jdbc:oracle:thin:@133.130.100.142:1521/XE";
+        connectURL = "jdbc:oracle:thin:@***.***.***.***:1521/XE";
         driver = "oracle.jdbc.OracleDriver";
-        id = "linkroad";
-        pass = "Link2435";
+        id = "*******";
+        pass = "*******";
     }
 
     public synchronized void ConnectOpen() throws Exception {
